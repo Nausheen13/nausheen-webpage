@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   
-  base: '/nausheen-webpage', // Relative base path
+  base: '/nausheen-webpage/', // Relative base path
   server: {
     host: "::",
     port: 8080,
