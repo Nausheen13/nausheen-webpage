@@ -14,6 +14,7 @@ import CodesBlogsPage from "./pages/CodesBlogsPage";
 import NewsPage from "./pages/NewsPage";
 import OutreachPage from "./pages/OutreachPage";
 import ContactPage from "./pages/ContactPage";
+import JoinUsPage from "./pages/JoinUsPage";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/codes-blogs" element={<CodesBlogsPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/outreach" element={<OutreachPage />} />
+          <Route path="/join-us" element={<JoinUsPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

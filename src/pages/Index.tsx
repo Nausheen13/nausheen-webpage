@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ResearchPreview from "@/components/ResearchPreview";
+import ManchesterBanner from "@/components/ManchesterBanner";
 import PublicationsPreview from "@/components/PublicationsPreview";
 import IndustrialCollaborators from "@/components/IndustrialCollaborators";
 import PeoplePreview from "@/components/PeoplePreview";
@@ -15,11 +16,12 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <ResearchPreview />
+        <ManchesterBanner />
+        {/* <ResearchPreview />
         <PublicationsPreview />
         <IndustrialCollaborators />
         <PeoplePreview />
-        <NewsPreview />
+        <NewsPreview /> */}
       </main>
       <Footer />
     </div>

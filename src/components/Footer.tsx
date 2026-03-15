@@ -7,7 +7,7 @@ const Footer = () => {
             © 2024 Dr. Nausheen Basha. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
-            Research Associate in Chemical Engineering, Imperial College London
+            Assistant Professor (Digital Manufacturing & AI), Department of Chemical Engineering, University of Manchester
           </p>
         </div>
       </div>

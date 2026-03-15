@@ -9,12 +9,13 @@ const Header = () => {
     { name: 'Research', href: '/research' },
     { name: 'Key Publications', href: '/publications' },
     { name: 'People', href: '/people' },
-    { name: 'Talks', href: '/talks' },
-    { name: 'Awards', href: '/awards' },
-    { name: 'Codes/Blogs', href: '/codes-blogs' },
-    { name: 'News', href: '/news' },
-    { name: 'Outreach', href: '/outreach' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Join Us', href: '/join-us' },
+    /*{ name: 'Talks', href: '/talks' },*/
+    /*{ name: 'Awards', href: '/awards' },*/
+    /*{ name: 'Codes/Blogs', href: '/codes-blogs' },*/
+    /*{ name: 'News', href: '/news' },*/
+    /*{ name: 'Outreach', href: '/outreach' },*/
+    /*{ name: 'Contact', href: '/contact' },*/
   ];
 
   return (
@@ -26,7 +27,7 @@ const Header = () => {
               to="/"
               className="text-xl font-semibold text-primary hover:text-accent transition-colors"
             >
-              Dr. Nausheen Basha
+              University of Manchester
             </Link>
           </div>
 
